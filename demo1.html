@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> the best way to loop through an aray is using a pro</p>
+    <span id="demo"></span>
+    <script>
+        var frufts,text,flen,i;
+        frufts=["banana","Orange","apple","mango"];
+        flen=frufts.length;
+        text="<ul>";
+        for( i=0;i<flen;i++){
+            text +="<li>"+frufts[i]+"</li>";
+        }
+        text +="</ul>";
+        document.getElementById("demo").innerHTML=text;
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+table, th,td {
+    border:2px solid rgb(190, 3, 3);
+    background: rgb(94, 238, 238);
+    font-size: 20px;
+   }
+   td:hover{
+    color: #ff1e00;
+    background: #00ff2a;
+   }
+  table:hover{
+    border: 3px solid fuchsia;
+  }
+  .container{
+    width: 30%;
+  }
+ 
+  .btn1{
+      background: rgb(91, 95, 91);
+      color: red;
+      font-size: 30px;
+      
+  }
+  input:focus{
+    background-color: yellow;
+    color: rgb(14, 201, 20);
+    border: 3px solid rgb(201, 14, 14); ;
+  }
